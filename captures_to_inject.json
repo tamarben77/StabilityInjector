@@ -1,0 +1,63 @@
+{
+    "captures": [
+        {
+            "captureFilePath": "smtp.pcap",
+            "injectionSpeed": 1,
+            "manipulationList":[ 
+                {
+                    "fieldName": "IP",
+                    "newValue": "1.1.1.1",
+                    "orgValue": "190.190.190.117"
+                }
+			]
+        },
+		{
+            "captureFilePath": "EDR_Flow1.pcap",
+            "injectionSpeed": 1,
+            "manipulationList":[ 
+                {
+                    "fieldName": "IP",
+                    "newValue": "1.1.1.1",
+                    "orgValue": "172.23.50.31"
+                }
+			]
+        },
+		{
+            "captureFilePath": "BDR.pcap",
+            "injectionSpeed": 1,
+            "manipulationList":[ 
+                {
+                    "fieldName": "IP",
+                    "newValue": "1.1.1.1",
+                    "orgValue": "172.21.248.24"
+                }
+			]
+        },
+		{
+            "captureFilePath": "H323-VoIP.pcap",
+            "injectionSpeed": 1,
+            "manipulationList":[ 
+                {
+                    "fieldName": "IP",
+                    "newValue": "1.1.1.1",
+                    "orgValue": "10.2.16.11"
+                }
+			]
+        },
+		{
+            "captureFilePath": "FTP.pcap",
+            "injectionSpeed": 1,
+            "manipulationList":[ 
+                {
+                    "fieldName": "IP",
+                    "newValue": "1.1.1.1",
+                    "orgValue": "172.22.247.141"
+                }
+			]
+        }
+    ],
+    "concurrent_files": 0,
+    "interfaceId": "3",
+    "loop_count": 0,
+    "loop_delay": 0
+}
